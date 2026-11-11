@@ -7,8 +7,8 @@
 
 ## Посилання
 
-- GitHub репозиторій: https://github.com/kudriavtsev/taskboard
-- GitHub Pages: https://kudriavtsev.github.io/taskboard/
+- GitHub репозиторій: https://github.com/kudriavtsevmdipz24-alt/taskboard
+- GitHub Pages: https://kudriavtsevmdipz24-alt.github.io/taskboard/
 
 ## Що виконано
 
@@ -17,7 +17,7 @@
 - `report.md` перенесено в `docs/` через `git mv`.
 - `.gitignore` розширено під Python-етап.
 - Підготовлено гілку `update-about` для кроку з Pull Request.
-- У `main` наявно 11 осмислених commit-ів.
+- У `main` наявно 12+ осмислених commit-ів.
 
 ## Для перевірки викладачу
 
