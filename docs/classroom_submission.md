@@ -17,7 +17,7 @@
 - `report.md` перенесено в `docs/` через `git mv`.
 - `.gitignore` розширено під Python-етап.
 - Підготовлено гілку `update-about` для кроку з Pull Request.
-- У `main` наявно 9 осмислених commit-ів.
+- У `main` наявно 11 осмислених commit-ів.
 
 ## Для перевірки викладачу
 
