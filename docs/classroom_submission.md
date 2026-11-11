@@ -17,7 +17,9 @@
 - `report.md` перенесено в `docs/` через `git mv`.
 - `.gitignore` розширено під Python-етап.
 - Підготовлено гілку `update-about` для кроку з Pull Request.
-- У `main` наявно 12+ осмислених commit-ів.
+- У `main` наявно 14 осмислених commit-ів.
+- Виконано Pull Request через гілку `update-about` і злито в `main`:
+  https://github.com/kudriavtsevmdipz24-alt/taskboard/pull/1
 
 ## Для перевірки викладачу
 
