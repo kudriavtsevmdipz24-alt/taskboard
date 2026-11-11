@@ -5,8 +5,8 @@ Doshka zavdan: navchalnyi naskriznyi proiekt z dystsypliny
 
 ## Author
 
-- Name: TODO Your Name
-- Group: TODO Your Group
+- Name: Кудрявцев Максим
+- Group: ІПЗ-3/2
 
 ## About project
 
@@ -37,14 +37,14 @@ The project will be developed step-by-step during the course.
 
 1. Clone repository:
 ```bash
-git clone https://github.com/TODO_USERNAME/taskboard.git
+git clone https://github.com/kudriavtsev/taskboard.git
 ```
 2. Open the folder in VS Code.
 3. Run `index.html` with Live Server.
 
 ## Demo
 
-[Open website](https://TODO_USERNAME.github.io/taskboard/)
+[Open website](https://kudriavtsev.github.io/taskboard/)
 
 ## Screenshot
 
