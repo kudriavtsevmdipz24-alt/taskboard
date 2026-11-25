@@ -3,73 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TaskBoard</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f5f7fb;
-      color: #1f2937;
-    }
-    header {
-      background: #2563eb;
-      color: #fff;
-      padding: 20px;
-    }
-    main {
-      max-width: 900px;
-      margin: 24px auto;
-      padding: 0 16px;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #e5e7eb;
-      border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 16px;
-    }
-    .status {
-      display: inline-block;
-      padding: 6px 10px;
-      border-radius: 999px;
-      font-size: 12px;
-      font-weight: 700;
-      background: #dcfce7;
-      color: #166534;
-    }
-    nav a {
-      color: #dbeafe;
-      margin-right: 12px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>Дошка завдань | TaskBoard</title>
 </head>
 <body>
-  <header>
-    <h1>TaskBoard</h1>
-    <p>Navchalnyi naskriznyi proiekt dlia keruvannia zavdanniamy.</p>
-    <nav>
-      <a href="./index.html">Holovna</a>
-      <a href="./about.html">Pro proiekt</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36">
+      <span>TaskBoard</span>
+    </a>
+    <nav class="nav" aria-label="Головна навігація">
+      <a href="index.html" aria-current="page">Головна</a>
+      <a href="about.html">Про автора</a>
     </nav>
   </header>
-  <main>
-    <section class="card">
-      <h2>Potuchni zavdannia</h2>
-      <p>Demonstratsiina storinka dlia laboratornoi roboty #5.</p>
-      <p><span class="status">In progress</span></p>
-    </section>
-    <section class="card">
-      <h2>Nastupnyi krok</h2>
-      <ul>
-        <li>Dodaty adaptyvnu verstku.</li>
-        <li>Pidkliuchyty JavaScript.</li>
-        <li>Pidgotuvaty backend na Flask.</li>
-      </ul>
+
+  <main class="container">
+    <section class="intro">
+      <h1>Дошка завдань</h1>
+      <p>TaskBoard — навчальна дошка для планування справ. У проєкті передбачено додавання завдань, позначення їхнього стану й перегляд виконаної роботи.</p>
+      <details>
+        <summary>Що таке TaskBoard?</summary>
+        <p>Це проєкт курсу «Технології створення веб-застосунків». Він починається зі статичних HTML-сторінок, до яких згодом додадуться керування завданнями та збереження даних.</p>
+      </details>
+      <p><a href="docs/links.html">Корисні посилання з HTML</a></p>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 TaskBoard · Максим Кудрявцев</p>
+  </footer>
 </body>
 </html>

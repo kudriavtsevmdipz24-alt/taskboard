@@ -3,47 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pro TaskBoard</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f9fafb;
-      color: #111827;
-    }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 16px;
-    }
-    a {
-      color: #2563eb;
-    }
-  </style>
+  <title>Про автора | TaskBoard</title>
 </head>
 <body>
-  <main>
-    <h1>Pro proiekt TaskBoard</h1>
-    <p>
-      TaskBoard - navchalnyi proiekt z dystsypliny
-      "Tekhnolohii stvorennia veb-zastosunkiv".
-    </p>
-    <p>
-      Tsia storinka bude rozshyriuvatysia u nastupnykh laboratornykh robotakh.
-    </p>
-    <p>
-      Avtor: <strong>TODO: Vashе imia ta prizvyshche</strong>.
-    </p>
-    <h2>Meta na semestr</h2>
-    <ul>
-      <li>Rozrobyty full-stack planuvalnyk zavdan.</li>
-      <li>Dodaty API ta bazu danykh.</li>
-      <li>Opratsiuvaty rozhortannia i testuvannia.</li>
-    </ul>
-    <p><a href="./index.html">Povernutys na holovnu</a></p>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36">
+      <span>TaskBoard</span>
+    </a>
+    <nav class="nav" aria-label="Головна навігація">
+      <a href="index.html">Головна</a>
+      <a href="about.html" aria-current="page">Про автора</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="card profile">
+      <figure>
+        <img src="images/avatar.png" alt="Ілюстрований аватар автора" width="160" height="160">
+        <figcaption>3 курс, спеціальність «Інженерія програмного забезпечення», група ІПЗ-3/2</figcaption>
+      </figure>
+      <div class="profile-text">
+        <h1>Про автора</h1>
+        <p>Мене звати <strong>Максим Кудрявцев</strong>. У межах курсу з веб-розробки я працюю над навчальною дошкою завдань <em>TaskBoard</em>.</p>
+        <p>Під час цієї роботи я навчився поєднувати сторінки відносними посиланнями та добирати HTML-теги за змістом. Далі планую додати можливість керувати завданнями прямо в браузері.</p>
+      </div>
+    </article>
+
+    <nav aria-label="Розділи сторінки">
+      <ul>
+        <li><a href="#skills">Навички</a></li>
+        <li><a href="#plan">Мій план навчання</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <section class="card" id="skills">
+      <h2>Навички</h2>
+      <ul>
+        <li>Семантична розмітка HTML</li>
+        <li>Робота з відносними посиланнями й зображеннями</li>
+        <li>Перевірка структури сторінки в DevTools</li>
+        <li>Робота з Git і GitHub</li>
+      </ul>
+    </section>
+
+    <section class="card" id="plan">
+      <h2>Мій план навчання</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Етап</th>
+            <th scope="col">Що вивчаю</th>
+            <th scope="col">Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Репозиторії, гілки та коміти в Git</td>
+            <td>Виконано</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Структура HTML-сторінок</td>
+            <td>Виконано</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Адаптивне оформлення за допомогою CSS</td>
+            <td>Заплановано</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Керування завданнями за допомогою JavaScript</td>
+            <td>Заплановано</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card" id="contacts">
+      <h2>Контакти</h2>
+      <ul>
+        <li>Електронна пошта: <a href="mailto:kudriavtsev.m.d_ipz24@rcit.ukr.education">kudriavtsev.m.d_ipz24@rcit.ukr.education</a></li>
+        <li><a href="https://github.com/kudriavtsevmdipz24-alt" target="_blank" rel="noopener">Мій профіль GitHub</a></li>
+      </ul>
+      <p><a href="index.html">Повернутись на головну</a></p>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 TaskBoard · Максим Кудрявцев</p>
+  </footer>
 </body>
 </html>
-
-<!-- Branch update for future PR -->
-<p>TODO: Add short bio for pull request task.</p>
